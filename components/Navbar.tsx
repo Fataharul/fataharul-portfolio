@@ -78,7 +78,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              Let's Talk
+              Let&apos;s Talk
             </motion.a>
           </div>
 
