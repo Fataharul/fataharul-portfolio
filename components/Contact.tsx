@@ -52,7 +52,7 @@ export default function Contact() {
         >
           <span className="text-primary font-bold uppercase tracking-[0.3em] text-[10px] mb-4 block">Connect</span>
           <h2 className="text-5xl md:text-6xl font-black mb-8 leading-tight">
-            Let&apos;s Start a <span className="text-gradient">Conversation</span>
+            {"Let&apos;s Start a"} <span className="text-gradient">Conversation</span>
           </h2>
           <p className="text-xl text-muted-foreground/80 font-light max-w-2xl mx-auto">
             Open for collaborations, new opportunities, or just a technical discussion.
@@ -102,7 +102,7 @@ export default function Contact() {
               Ready to create something <span className="text-gradient-vibrant">impactful</span>?
             </h3>
             <p className="text-muted-foreground/80 font-medium mb-10 max-w-xl mx-auto relative z-10">
-              I&apos;m always looking for ambitious projects and meaningful partnerships. Let&apos;s make it happen.
+              {"I&apos;m always looking for ambitious projects and meaningful partnerships. Let&apos;s make it happen."}
             </p>
             <motion.a
               href={`mailto:${personalInfo.email}`}
