@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "MD Fataharul Islam",
   title: "CSE Undergrad | Competitive Programmer | Web Developer",
-  bio: "I&apos;m a Computer Science and Engineering undergraduate, competitive programmer, and web developer. I&apos;m passionate about solving algorithmic problems, building scalable web applications, and continuously learning new technologies to grow as a software engineer.",
+  bio: "I'm a Computer Science and Engineering undergraduate, competitive programmer, and web developer. I'm passionate about solving algorithmic problems, building scalable web applications, and continuously learning new technologies to grow as a software engineer.",
   email: "islam.fataharul@gmail.com",
   github: "https://github.com/Fataharul",
   linkedin: "https://www.linkedin.com/in/md-fataharulislam",
@@ -70,13 +70,13 @@ export const projects = [
 
 export const achievements = [
   {
-    title: "Dean&apos;s List of Meritorious Students",
+    title: "Dean's List of Meritorious Students",
     year: "2024",
     description: "Recognized for academic excellence and outstanding performance",
     hasCertificate: true,
   },
   {
-    title: "Vice Chancellor&apos;s List of Meritorious Students",
+    title: "Vice Chancellor's List of Meritorious Students",
     year: "2025",
     description: "Awarded for exceptional academic achievements",
     hasCertificate: true,
@@ -98,8 +98,8 @@ export const achievements = [
 export const about = {
   paragraphs: [
     "As a Computer Science and Engineering undergraduate, I bring together academic rigor and practical experience in software development. My journey in tech is driven by a deep passion for problem-solving and creating impactful solutions.",
-    "Through competitive programming, I&apos;ve honed my algorithmic thinking and developed a strong foundation in data structures and algorithms. This problem-solving mindset translates directly into my development work, where I focus on building efficient, scalable web applications.",
+    "Through competitive programming, I've honed my algorithmic thinking and developed a strong foundation in data structures and algorithms. This problem-solving mindset translates directly into my development work, where I focus on building efficient, scalable web applications.",
     "I specialize in full-stack development with expertise in modern JavaScript frameworks and backend technologies. My projects showcase my ability to design and implement complete solutions, from database architecture to responsive user interfaces.",
-    "I&apos;m constantly learning and adapting to new technologies, always seeking to improve my craft and contribute to meaningful projects. Whether it&apos;s optimizing algorithms or architecting robust web applications, I&apos;m committed to excellence in software engineering.",
+    "I'm constantly learning and adapting to new technologies, always seeking to improve my craft and contribute to meaningful projects. Whether it's optimizing algorithms or architecting robust web applications, I'm committed to excellence in software engineering.",
   ],
 };

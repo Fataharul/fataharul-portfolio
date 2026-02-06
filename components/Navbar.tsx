@@ -78,7 +78,7 @@ export default function Navbar() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}
             >
-              {"Let&apos;s Talk"}
+              <span>{"Let's Talk"}</span>
             </motion.a>
           </div>
 
