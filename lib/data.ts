@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "islam.fataharul@gmail.com",
   github: "https://github.com/Fataharul",
   linkedin: "https://www.linkedin.com/in/md-fataharulislam",
-  codeforces: "https://codeforces.com/profile/islam.fatahrul",
+  codeforces: "https://codeforces.com/profile/islam.fataharul",
   resumeUrl: "/resume.pdf",
 };
 
