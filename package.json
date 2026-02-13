@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && node -e \"require('fs').writeFileSync('out/.nojekyll', '')\" && npx gh-pages -d out --dotfiles"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",

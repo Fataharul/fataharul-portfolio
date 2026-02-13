@@ -6,7 +6,7 @@ export const personalInfo = {
   github: "https://github.com/Fataharul",
   linkedin: "https://www.linkedin.com/in/md-fataharulislam",
   codeforces: "https://codeforces.com/profile/islam.fataharul",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/fataharul-portfolio/resume.pdf",
 };
 
 export const skills = {

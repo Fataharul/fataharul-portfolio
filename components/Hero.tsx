@@ -66,7 +66,7 @@ export default function Hero() {
                 <div className="absolute -inset-2 bg-gradient-to-r from-primary to-accent rounded-full blur-xl opacity-20 group-hover:opacity-40 transition duration-1000 group-hover:duration-200"></div>
                 <div className="relative w-48 h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-white/10 glass shadow-2xl">
                   <img
-                    src="/images/profile.jpg"
+                    src="/fataharul-portfolio/images/profile.jpg"
                     alt={personalInfo.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -155,7 +155,7 @@ export default function Hero() {
 
               <motion.a
                 href={personalInfo.resumeUrl}
-                download
+                download="resume.pdf"
                 className="group px-8 py-4 glass text-foreground rounded-full font-semibold flex items-center gap-2 hover:bg-white/10 transition-all"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.98 }}
