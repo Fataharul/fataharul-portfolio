@@ -30,7 +30,7 @@ const contactLinks = [
   },
   {
     name: "Codeforces",
-    value: "@islam.fatahrul",
+    value: "@islam.fataharul",
     href: personalInfo.codeforces,
     icon: Code2,
     color: "from-red-500 to-yellow-500",

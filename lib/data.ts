@@ -4,7 +4,7 @@ export const personalInfo = {
   bio: "I'm a Computer Science and Engineering undergraduate, competitive programmer, and web developer. I'm passionate about solving algorithmic problems, building scalable web applications, and continuously learning new technologies to grow as a software engineer.",
   email: "islam.fataharul@gmail.com",
   github: "https://github.com/Fataharul",
-  linkedin: "https://www.linkedin.com/in/md-fataharulislam",
+  linkedin: "https://www.linkedin.com/in/md-fataharul-islam/",
   codeforces: "https://codeforces.com/profile/islam.fataharul",
   resumeUrl: "/fataharul-portfolio/resume.pdf",
 };
@@ -27,7 +27,7 @@ export const skills = {
     "Competitive Programming",
     "Time Complexity Analysis",
   ],
-  tools: ["Git", "GitHub", "VS Code"],
+  tools: ["Git", "GitHub", "VS Code", "Wire Frame", "Canva"],
 };
 
 export const projects = [
@@ -36,7 +36,7 @@ export const projects = [
     description: "A modern, responsive dashboard built with Next.js featuring dynamic data visualization, user authentication, and real-time updates. Implements best practices for performance and SEO.",
     techStack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
     githubUrl: "https://github.com/Fataharul/nextjs-dashboard",
-    liveUrl: null,
+    liveUrl: "https://nextjs-dashboard-sigma-ecru-23.vercel.app/",
   },
   {
     title: "URL Shortener",
@@ -50,21 +50,21 @@ export const projects = [
     description: "A vibrant eCommerce platform where plant lovers can explore and shop a wide variety of plant species and categories.",
     techStack: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Fataharul/green-earth",
-    liveUrl: null,
+    liveUrl: "https://green-earth-8ny.pages.dev/",
   },
   {
     title: "English Janala",
     description: "An educational platform designed to enhance English language learning through interactive lessons, quizzes.",
     techStack: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Fataharul/english-janala",
-    liveUrl: null,
+    liveUrl: "https://fataharul.github.io/english-janala/",
   },
   {
     title: "Emergency Hotline",
     description: "A critical service application providing quick access to emergency contacts and services.",
     techStack: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Fataharul/emergency-hotline",
-    liveUrl: null,
+    liveUrl: "https://fataharul.github.io/emergency-hotline/",
   },
 ];
 
@@ -74,24 +74,28 @@ export const achievements = [
     year: "2024",
     description: "Recognized for academic excellence and outstanding performance",
     hasCertificate: true,
+    certificateUrl: "/fataharul-portfolio/certificates/dean_certificate.pdf",
   },
   {
     title: "Vice Chancellor's List of Meritorious Students",
     year: "2025",
     description: "Awarded for exceptional academic achievements",
     hasCertificate: true,
+    certificateUrl: "/fataharul-portfolio/certificates/vice_chancelors_certificate.pdf",
   },
   {
     title: "2nd Runner UP - Training on Hackathon Challenge and Excellence",
     year: "2024",
     description: "Secured 3rd position in university-level hackathon competition",
     hasCertificate: true,
+    certificateUrl: "/fataharul-portfolio/certificates/hackathon_2nd_runner_up.pdf",
   },
   {
     title: "BIUCPC Participant",
     year: "2025",
     description: "Participated in Bangladesh Inter-University Competitive Programming Contest organized by BUBT",
     hasCertificate: true,
+    certificateUrl: "/fataharul-portfolio/certificates/biucpc_participation.pdf",
   },
 ];
 

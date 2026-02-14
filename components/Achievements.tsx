@@ -61,11 +61,16 @@ export default function Achievements() {
                             {achievement.year}
                           </div>
                         </div>
-                        {achievement.hasCertificate && (
-                          <div className="hidden sm:flex items-center gap-2 px-3 py-1 glass rounded-lg text-[10px] font-bold uppercase tracking-widest text-muted-foreground">
+                        {achievement.hasCertificate && achievement.certificateUrl && (
+                          <a
+                            href={achievement.certificateUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hidden sm:flex items-center gap-2 px-3 py-1 glass rounded-lg text-[10px] font-bold uppercase tracking-widest text-muted-foreground hover:bg-primary/20 hover:text-primary transition-all duration-300"
+                          >
                             <FileCheck size={14} className="text-primary" />
-                            <span>Verified</span>
-                          </div>
+                            <span>View Certificate</span>
+                          </a>
                         )}
                       </div>
 
@@ -73,12 +78,17 @@ export default function Achievements() {
                         {achievement.description}
                       </p>
 
-                      {achievement.hasCertificate && (
-                        <div className="p-4 bg-white/[0.02] border border-dashed border-white/10 rounded-2xl">
-                          <p className="text-xs text-muted-foreground/50 italic font-medium">
-                            Certification documentation available upon request
+                      {achievement.hasCertificate && achievement.certificateUrl && (
+                        <a
+                          href={achievement.certificateUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block p-4 bg-white/[0.02] border border-dashed border-white/10 rounded-2xl hover:bg-primary/[0.05] hover:border-primary/30 transition-all duration-300 group/cert"
+                        >
+                          <p className="text-xs text-muted-foreground/50 italic font-medium group-hover/cert:text-primary transition-colors">
+                            Click to view certification documentation
                           </p>
-                        </div>
+                        </a>
                       )}
                     </div>
                   </div>
